@@ -1,1 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
 
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 30px auto;
+    border: 1px solid #d9b68e;
+}
+
+td {
+    border: 1px solid #d9b68e;
+    vertical-align: top;
+    padding: 0px;
+}
+
+/* Bagian Layout */
+header {
+    background-color: #ffe6cc;
+    text-align: center;
+    padding-top:25px ;
+    padding-bottom: 25px;
+    
+}
+
+nav {
+    background-color: #dae8fc;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.konten {
+    width: 70%;
+    background-color: #f8cecc;
+    font-size:smaller;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.menu {
+    width: 30%;
+    background-color: #d5e8d4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: small;
+
+}
+
+footer {
+    background-color: #ffe6cc;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: small;
+}
+
+/* Teks & List */
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 5px;
+}
